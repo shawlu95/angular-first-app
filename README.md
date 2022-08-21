@@ -1,5 +1,23 @@
 # AngularFirstApp
 
+## Getting Started
+
+- Download [Node](https://nodejs.org/en/) 16 or 18
+- Download [WebStorm](https://www.jetbrains.com/webstorm/) IDE
+
+```bash
+# globally install cli
+sudo npm install -g @angular/cli@latest
+
+# init a project and select N when prompted
+cd Documents/proj
+ng new angular-first-app --no-strict
+
+# serve website (nodemon)
+cd new angular-first-app
+ng serve
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
