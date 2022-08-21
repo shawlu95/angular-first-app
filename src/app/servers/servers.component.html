@@ -8,7 +8,7 @@
 >
   Add Server
 </button>
-<p>Server Name: {{ serverName }}</p>
+<p *ngIf="serverCreated">Server Name: {{ serverName }}</p>
 <p>Status: {{ serverCreationStatus }}</p>
 <p>{{ allowNewServer }}</p>
 <p [innerText]="allowNewServer"></p>

@@ -9,6 +9,7 @@ export class ServersComponent implements OnInit {
   allowNewServer = false;
   serverCreationStatus: string = 'No server created';
   serverName: string = 'two-way-bind';
+  serverCreated: boolean = false;
 
   constructor() {
     setTimeout(() => {
@@ -20,6 +21,7 @@ export class ServersComponent implements OnInit {
 
   onCreateServer(): void {
     this.serverCreationStatus = 'Server was created: ' + this.serverName;
+    this.serverCreated = true;
   }
 
   onUpdateServerName(event): void {
