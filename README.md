@@ -18,6 +18,15 @@ cd new angular-first-app
 ng serve
 ```
 
+Use bootstrap css.
+
+1. install bootstrap using npm
+2. update [angular.json](./angular.json)
+
+```bash
+npm install --save bootstrap@3
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
