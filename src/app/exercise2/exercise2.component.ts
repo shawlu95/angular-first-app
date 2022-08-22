@@ -15,6 +15,6 @@ export class Exercise2Component implements OnInit {
 
   onToggleDetail(): void {
     this.showSecret = !this.showSecret;
-    this.log.push(this.log.length + 1);
+    this.log.push(new Date());
   }
 }
